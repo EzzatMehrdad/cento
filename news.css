@@ -1,0 +1,653 @@
+/*
+
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+*{
+    box-sizing;
+    border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --headings:'Montserrat', sans-serif;
+}
+
+body{
+    font-family:'georgia';
+    background: #fff;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    margin: 10px auto;
+    width: 240px;
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+hr{
+    width: 95vw;
+    margin: 0 auto;
+}
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #FFBA0D;
+    color: #000000;
+}
+.top-head .fas{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.times-button{
+    display: none;   
+}
+.nav-bar{
+    background: #FFBA0D;
+    height:0; 
+    overflow: hidden;
+}
+.show-nav{
+    height: auto;
+}
+
+.nav-bar ul li{
+    text-align: center;
+    display: block;
+    padding: 20px 10px;
+    transition: all 1s ease-in-out;
+    font-weight: 400; 
+}
+.nav-bar ul li:hover{
+    background: #0e0e0e0e;
+} 
+.nav-bar ul li a{
+    color: #00000;
+    text-transform: uppercase;
+}
+.nav-bar ul li a:hover{
+    text-decoration: underline;
+}
+.social{
+    display: none;
+}
+
+
+.line1{
+    border: none;
+    height: 3px;
+    background: #FFBA0D
+}
+
+
+
+main a{
+    padding: 10px 10px;
+    display: block;
+     text-transform: uppercase;
+}
+
+main span{
+    transition: padding-left 0.5s;
+}
+.news{
+    border-bottom: 0.2px solid #BEBEBE; 
+    margin-left: 7%;
+}
+.opin{
+    border-bottom: 1.3px solid #BEBEBE;
+    
+}
+
+main a:hover span{
+    padding-left: 5px;
+    
+}
+
+main a:hover{
+    color: #FFBA00;
+}
+
+
+
+.main-left{
+    padding: 30px 10px;
+}
+
+
+
+.main-left > h2{
+    padding: 15px 0 15px 30px;
+    
+}
+.main-left h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+main-left p{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.main-left article{
+    padding: 10px;
+}
+
+
+
+.top-left {    
+    padding: 15px 30px;
+
+}
+
+.bottom-left{
+    background: #f3f3f3;
+    margin: 15px 30px;
+}
+
+.middle{
+    padding: 0px 20px;
+    margin-top: 80px;
+    border-left: 1px solid #BEBEBE;
+}
+
+
+.middle article{
+    padding: 20px 10px;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+
+.middle h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.middle article:last-child{
+    border-bottom: none;
+}
+
+
+.main-right{
+    padding: 10px 20px;
+    margin-right: 30px;
+    border-left: 0.3px solid #BEBEBE;
+    margin-top: 4.4%;
+}
+
+.main-right >h2{
+    padding: 15px 0 15px 30px;    
+    
+}
+
+.main-right article{
+    padding: 15px 0;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.main-right article:last-child{
+    border-bottom: none;
+}
+
+
+.main-right h6{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    align-self: center;
+}
+
+.main-right article h2{
+    font-size: 18px;
+    padding: 10px 0;
+ 
+}
+
+.main-right article p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-right article div{
+    margin-left: auto;
+}
+
+.banner{
+    min-height: auto;
+    display: grid;
+    grid-auto-columns: 2fr;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.banner-main{
+    
+    padding: 0 3rem;
+    line-height: 1.7;
+}
+.banner-main h2{
+    font-size: 2rem;
+    font-family: sans-serif
+    (--heading);
+}
+
+.banner-main h3{
+    padding: 1rem 0;
+}
+
+.banner-main button{
+ border: none;
+background:#FFBA00;
+    font-size: 1.2rem;
+    font-family:'Montserrat', sans-serif;
+    transition: background is ease; 
+}
+.banner-main button a{
+    color: #f3f3f3f3;
+    transition: color is ease;
+}
+.banner-main button:hover{
+    background: #fff;
+} 
+.banner-main button:hover a{
+    color: #0d0a0b;
+}
+
+.sports{
+    padding: 10px 0;
+    border-bottom: 1px solid #BEBEBE;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+.sport{
+    width: 100%;
+}
+
+.line2{
+    border: none;
+    height: 2px;
+    background: #000000;
+}
+
+.recent{
+    padding: 40px 30px;
+    height: 300px;
+    margin-top: 2%;
+    border-left: 1px solid #000;
+}
+
+.recent article{
+    border-left: 1px solid #000;
+}
+.recent:first-child{
+    border-left: none;
+} 
+
+
+.recent img{
+    display: block;
+    height: 190px;    
+}    
+.recent-content {
+    padding: 20px 0;
+    line-height: 1.3;    
+}
+.recent h2{
+    padding: 10px 0;
+    font-size: 18px;
+    /*
+    text-shadow: 0 0 2px #000;
+    */
+}
+
+.recent-content a{
+    display: block;
+    background: #f3f3f3;
+    border: none;
+    width: 95px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 14px;
+    margin: 10px 0 10px 10px;
+    
+}
+.recent-content a:hover{
+    text-decoration: underline;
+}
+
+.art{
+    padding: 10px 0px;
+    border-bottom: 1px solid #BEBEBE;
+    margin-left: 4%;
+    margin-right: 27%;
+}
+
+.last{
+    padding: 0px 40px;
+}
+.last-left{
+    padding: 40px 20px; 
+    
+}
+
+.last-left article{
+    padding: 20px 0;
+    border-bottom: 1px solid  #BEBEBE;
+}
+.last-left article:last-child{
+    border-bottom: none;
+}
+
+
+
+.last-left h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.last-left p{
+    padding: 20px 0px;
+
+}
+
+.last-right{
+    margin-top: 6%;
+    margin-bottom: 10%;
+    padding: 40px 20px;
+    border-left: 1px solid #BEBEBE;
+    
+}
+.last-right article{
+    padding: 20px 10px;
+    border-bottom: 1px solid #BEBEBE;
+    
+}
+.last-right article:last-child{
+    border-bottom: none;
+}
+.last-right h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.last-right p{
+    padding: 20px 0px;
+    
+}
+.danville{
+    padding: 0px 30px;
+    border-left: 1px solid #BEBEBE;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.danville article{
+    padding: 20px 0px;
+    border-bottom: 1px solid #BEBEBE;
+}
+.danville article:last-child{
+    border-bottom: none;
+}
+.danville h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.danville p{
+    padding: 20px 0px;
+    
+}
+
+.danv{
+    border-bottom: 1px solid #BEBEBE;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    
+}
+
+footer{
+    
+    background: #252525;
+    color: #f3f3f3;
+    padding: 30px;
+}
+
+footer h2{
+    padding: 10px 0;
+}
+
+footer p{
+    padding: 10px 0;
+    line-height: 1.3;
+    
+}
+.foot-left,
+.foot-right{
+    margin: 0 20px;
+}
+
+footer >0{
+    
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 20px;
+    
+}
+.foot-right{
+    font-size: 1.8rem;
+    color: #808080;
+}
+.foot-right input{
+    font-size: 18px;
+    border: none;
+    background: transparant;
+    outline: none;
+    color: #808080;
+    padding-right: 10px;
+    width: 100%;
+    
+}
+
+.foot-right div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    padding: 10px 0;
+    border-bottom: 1.6px #808080;
+}
+
+
+@media(max-width: 460px){
+    .recent-content h2{
+        font-size: 16px;
+    }
+    .main-right article{
+        display: block;
+    }
+
+}
+
+@media(max-width:700px){
+    .main-right article{
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .main-right article h4{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: flex-start;
+    }
+    .main-right article img{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .main-right article div{
+        grid-row: 1/3;
+        grid-column: 2/3;
+        
+    }
+    .middle {
+        margin-top: 0;
+    }
+    .main-right{
+        padding-left: 7%;
+        border-left: none;
+    }
+    .recent img{
+        padding: 70 0;
+        width: 400px;
+        height: 300px;
+    }
+    .recent {
+        margin-top: 10%; 
+        border-left: none;
+    }
+    .recent:last-child{
+        margin-bottom: 10%;
+    }
+    .recent-content{
+        border-bottom: 1px solid #BEBEBE;
+    }  
+    .danville{
+        border-left: none;
+    }
+    .last-right{
+        border-left: none;
+    }
+    .last{
+        display: block;
+    }
+    .last-left{
+        margin-bottom: 0;
+    }
+    .last-left article:last-child{
+        border-bottom: 1px solid #BEBEBE;
+    }
+    .last-right{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .art{
+        margin-right: 2%;
+    }
+    .danville{
+        margin-top: 0;
+        border-left: none;
+    }
+    .danv{
+        border-bottom: 1px solid #BEBEBE;  
+    }
+    .danville article{
+        margin-top: 10px;
+    }
+}
+
+@media(min-width:768px){
+    .sub-latest{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .bottom-left{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+ 
+    .last{
+        display:grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .last-left{
+        width: 600px;
+    }
+}
+
+@media(min-width:950px){
+    /*
+    .home-button,.times-button{
+        display: none!important;
+    */    
+    .navigat-bar{
+        display: flex;
+        background: #FFBA0D;
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+    .top-head{
+        flex: 0 0 15%;
+    }
+    .nav-bar{
+        flex: 1 0 auto;
+        height: 100%;
+        background: transparant; 
+    
+    }
+    .nav-bar ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar ul li{
+        padding-right: 30px;
+    }
+    .nav-bar ul li:hover{
+        background: none;
+    }
+    .social{
+        display: block;
+        flex: 0 3 20%;
+        margin: 0 auto;
+    }
+    .social ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .social ul li{
+        padding: 20px;
+    }
+    .foot-contain{
+        display: flex;
+        
+    }
+    .foot-right,
+    .foot-left{
+        flex: 1; 
+    }
+}
+
+@media(min-width:992px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main-left{
+        width: 600px;
+        
+    }
+    
+}
+
+@media(min-width:1080px){
+    .sport{
+        grid-template-columns: 4, 2fr;
+    }
+    
+}
